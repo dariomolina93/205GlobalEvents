@@ -7,7 +7,7 @@ Program Options
 ---------------
 These can all be combined to refine your search
 
-**follow**
+**follow**  
 A comma-separated list of user IDs, indicating the users whose Tweets should be delivered on the stream.
 This will return:
 - Tweets created by the user.
@@ -24,29 +24,29 @@ The stream will not return:
 Example
 `stream.filter(follow=USER_ID)` (Not tested yet, syntax may be wrong)
 
-**track**
+**track**  
 A comma-separated list of phrases which will be used to determine what Tweets will be delivered on the stream. You can think of commas as logical ORs, while spaces are equivalent to logical ANDs
 
 Example
 `stream.filter(track['trump'])`
 
-**locations**
+**locations**  
 A comma-separated list of longitude,latitude pairs specifying a set of bounding boxes to filter Tweets by. Only geolocated Tweets falling within the requested bounding boxes will be included—unlike the Search API, the user’s location field is not used to filter tweets.
 
 Example
 `stream.filter(locations=-122.75,36.8,-121.75,37.8)` (Not tested yet, syntax may be wrong)
 
-**Further details**
+**Further details**  
 More details can be found on Twitter's `site
 <https://dev.twitter.com/streaming/overview/request-parameters>`
 
 
 Running the Program
 -------------------
-Run it from command line with the following command:
+Run it from command line with the following command:  
 `py twitter_streaming.py TRACK_TERM`
 
-It is currently set to run the stream while using the given TRACK_TERM. Certain keys have been selected to look for within the returned data structure. For best readability, pipe the results to a text file with a command similar to:
+It is currently set to run the stream while using the given TRACK_TERM. Certain keys have been selected to look for within the returned data structure. For best readability, pipe the results to a text file with a command similar to:  
 `py twitter_streaming.py trump > trump.txt`
 
 Use CTRL+C to exit.
