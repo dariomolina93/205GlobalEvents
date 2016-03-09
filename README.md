@@ -37,8 +37,7 @@ Example
 `stream.filter(locations=-122.75,36.8,-121.75,37.8)` (Not tested yet, syntax may be wrong)
 
 **Further details**  
-More details can be found on Twitter's `site
-<https://dev.twitter.com/streaming/overview/request-parameters>`
+More details can be found on Twitter's [site](https://dev.twitter.com/streaming/overview/request-parameters)
 
 
 Running the Program
