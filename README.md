@@ -53,4 +53,4 @@ Use CTRL+C to exit.
 
 Current Issues
 --------------
-Attempting to print out emojis throws an error as there is no encoding for them the charmap of UTF-8
+Attempting to print out emojis throws an error as there is no encoding for them the charmap of UTF-8.
