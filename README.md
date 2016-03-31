@@ -3,11 +3,7 @@ Installation
 1. - `cd tweepy` cd into the tweepy directory
 2. - `py setup.py` install tweepy
 
-<<<<<<< HEAD
 Potential Future Additions (Twitter)
-=======
-Program Options
->>>>>>> c57ad9b18d1382ce4bace7e6d8aca0e6a2fd1dc9
 ---------------
 These can all be combined to refine your search
 
@@ -47,7 +43,6 @@ More details can be found on Twitter's [site](https://dev.twitter.com/streaming/
 Running the Program
 -------------------
 Run it from command line with the following command:  
-<<<<<<< HEAD
 `py events.py TRACK_TERM_1 TRACK_TERM_2`
 
 This will start tracking the search term for all tweets from the start of the program in real-time, and all Instagrams starting from that time moving backward (currently working to see if we can get them in real-time as well, but still works as it will only go back in time a few minutes usually).
@@ -111,15 +106,3 @@ Current Issues
 --------------
 1. Attempting to print out emojis throws an error as there is no encoding for them the charmap of UTF-8.
 2. Rate Limiting Errors for Twitter, and HTTP Error 429 - Too Many Requests for Instagram
-=======
-`py twitter_streaming.py TRACK_TERM`
-
-It is currently set to run the stream while using the given TRACK_TERM. Certain keys have been selected to look for within the returned data structure. For best readability, pipe the results to a text file with a command similar to:  
-`py twitter_streaming.py trump > trump.txt`
-
-Use CTRL+C to exit.
-
-Current Issues
---------------
-Attempting to print out emojis throws an error as there is no encoding for them the charmap of UTF-8.
->>>>>>> c57ad9b18d1382ce4bace7e6d8aca0e6a2fd1dc9
